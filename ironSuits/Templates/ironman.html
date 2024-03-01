@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='ironman.css') }}"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Genius, billionaire, playboy, philanthropist</h1>
+    <div class="container">
+      {% for ironman in ironmen %}
+      <div class="img-container">
+        <h4>{{ ironman.iron_name }}</h4>
+        <a href="{{ url_for('ironman.show', index=ironman.iron_id) }}">
+          <img src="{{ ironman.iron_photo }}" alt="{{ ironman.iron_name }}" />
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    <p>Click on the pictures above for more info</p>
+  </body>
+</html>

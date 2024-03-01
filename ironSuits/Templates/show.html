@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ ironman.iron_name }}</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='show.css') }}"
+    />
+  </head>
+  <body>
+    <h1>{{ ironman.iron_name }}</h1>
+    <div class="div">
+      <img src="{{ ironman.iron_photo }}" alt="{{ ironman.iron_name }}" />
+    </div>
+    <h4>{{ ironman.iron_fact }}</h4>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+[
+    {   
+        "iron_id": 0,
+        "iron_name": "Mark II",
+        "iron_photo": "https://i.pinimg.com/564x/f5/95/da/f595da4aa2e275b6acbe9a6417b26115.jpg",
+        "iron_fact": "The Mark II Iron Man suit, also known as the Silver Centurion, was a significant upgrade from the original suit built by Tony Stark. Its sleek silver design was a departure from the bulkier Mark I, featuring improved flight capabilities and enhanced weapon systems. Equipped with advanced repulsor technology, it offered Tony greater speed and maneuverability, becoming a pivotal asset in his battles against various threats. The Mark II laid the foundation for subsequent iterations, setting a new standard for Iron Man's iconic armor."
+    },{   
+        "iron_id": 1,
+        "iron_name": "Mark XX",
+        "iron_photo": "https://i.pinimg.com/564x/73/fa/4f/73fa4fe9f555f74ca7a2dbab112587ce.jpg",
+        "iron_fact": "The Mark XX Iron Man suit, also known as Python, is a specialized armor designed for heavy lifting and carrying heavy loads. Its sleek, silver design offers enhanced strength and durability, making it ideal for construction and rescue missions. Equipped with advanced repulsor technology and an array of powerful thrusters, the Mark XX provides exceptional maneuverability despite its bulkier frame, making it a formidable asset in challenging environments."
+    },{   
+        "iron_id": 2,
+        "iron_name": "Mark VII",
+        "iron_photo": "https://i.pinimg.com/564x/bb/e8/b1/bbe8b12f7973b04b26faf2686aa6c940.jpg",
+        "iron_fact": "The Mark VII Iron Man suit, featured prominently in Marvel Comics and the Marvel Cinematic Universe, is a pinnacle of Tony Stark's engineering prowess. This suit is renowned for its versatility, advanced weaponry, and rapid deployment capabilities. Equipped with repulsor technology, advanced AI, and nanotech, the Mark VII represents a fusion of power and agility, allowing Iron Man to swiftly engage in combat and tackle various threats with precision."
+    }
+]

@@ -1,0 +1,62 @@
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%; /* Adjust based on your design */
+    margin: 10px; /* Adjust spacing between images */
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px; /* Adjust to your preference */
+    margin: 0 auto;
+    border-bottom: 10px gold ridge;
+}
+
+h4 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: goldenrod; /* Link color, change as needed */
+}
+
+body{
+    background-color: rgb(72, 71, 71);
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(227, 202, 59), #b40000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 10px gold ridge;
+}
+
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    color: silver;
+}
+
+p{
+    color: lightslategrey;
+    font-size: small;
+    text-align: center;
+}
