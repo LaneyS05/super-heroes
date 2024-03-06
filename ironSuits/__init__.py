@@ -9,6 +9,4 @@ def create_app():
     def hello():
         return render_template('index.html')
 
-    return app
-
-
+    return app       

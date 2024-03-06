@@ -9,10 +9,23 @@
     />
   </head>
   <body>
+    <a href="http://127.0.0.1:5000/ironman/" class="back-link">Back</a>
     <h1>{{ ironman.iron_name }}</h1>
-    <div class="div">
-      <img src="{{ ironman.iron_photo }}" alt="{{ ironman.iron_name }}" />
-    </div>
+    <img
+      class="suit"
+      src="{{ ironman.iron_photo }}"
+      alt="{{ ironman.iron_name }}"
+    />
     <h4>{{ ironman.iron_fact }}</h4>
+    <img
+      class="helmet"
+      src="https://i.pinimg.com/564x/4c/4b/74/4c4b74cd323e9b93ffbf069bed9f977f.jpg"
+      alt="helmet"
+    />
+    <img
+      class="blueprint"
+      src="https://i.pinimg.com/564x/69/a2/04/69a204655ff97b1361e082dd1ee45a1a.jpg"
+      alt="blueprint"
+    />
   </body>
 </html>

@@ -31,14 +31,17 @@ a {
     display: block;
     margin-top: 10px;
     text-decoration: none;
-    color: goldenrod; /* Link color, change as needed */
+    color: rgb(227, 202, 59);
+    border: rgb(227, 202, 59) 1px solid;
+    padding: 5px;
+    margin: 5px;
 }
 
-body{
+body {
     background-color: rgb(72, 71, 71);
 }
 
-h1{
+h1 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     background-image: linear-gradient(to top, rgb(227, 202, 59), #b40000);
@@ -50,13 +53,19 @@ h1{
     border-bottom: 10px gold ridge;
 }
 
-h4{
+h4 {
     font-family: 'Courier New', Courier, monospace;
     color: silver;
 }
 
-p{
+p {
     color: lightslategrey;
     font-size: small;
     text-align: center;
+}
+
+.back-link {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
 }
